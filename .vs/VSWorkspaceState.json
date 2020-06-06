@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\flaskblog",
+    "\\flaskblog\\errors",
+    "\\flaskblog\\main",
+    "\\flaskblog\\static",
+    "\\flaskblog\\templates",
+    "\\flaskblog\\templates\\errors",
+    "\\flaskblog\\users"
+  ],
+  "SelectedNode": "\\flaskblog\\templates\\register.html",
+  "PreviewInSolutionExplorer": false
+}
