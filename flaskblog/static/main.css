@@ -46,8 +46,8 @@ a.article-title:hover {
 }
 
 .article-img {
-    height: 65px;
-    width: 65px;
+    height: 99px;
+    width: 95px;
     margin-right: 16px;
 }
 
@@ -69,8 +69,8 @@ a.article-title:hover {
 }
 
 .account-img {
-    height: 125px;
-    width: 125px;
+    height: 99px;
+    width: 95px;
     margin-right: 20px;
     margin-bottom: 16px;
 }

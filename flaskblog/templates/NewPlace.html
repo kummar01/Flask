@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+  <meta charset="utf-8" />
+    <title>Fixer upper:)</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDjy-DF_aZVqtc5O_sFIjjGpfe76Tum0UY&callback=initialize&libraries=&v=weekly"
+      defer
+    ></script>
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      #street-view {
+        height: 100%;
+      }
+    </style>
+    <script>
+      "use strict";
+
+      let panorama;
+
+      function initialize() {
+        panorama = new google.maps.StreetViewPanorama(
+          document.getElementById("street-view"),
+          {
+            position: {
+              lat: 43.1094224,
+              lng: -78.9991338
+            },
+            pov: {
+              heading: 306.54,
+              pitch: 0
+            },
+            zoom: 1.2
+          }
+        );
+      }
+    </script>
+  </head>
+  <body>
+     <div id="street-view"></div>
+  </body>
+</html>

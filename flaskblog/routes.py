@@ -17,13 +17,31 @@ def home():
     posts = Post.query.order_by(Post.date_posted.desc()).paginate(page=page, per_page=5)
     return render_template('home.html', posts=posts)
 
-@app.route("/TryAgain")
-def TryAgain():
-    return render_template('TryAgain.html', title='TryAgain')
+@app.route("/GeospatialProgramming")
+def GeospatialProgramming():
+    return render_template('GeospatialProgramming.html', title='GeospatialProgramming')
 
-@app.route("/about")
-def about():
-    return render_template('about.html', title='About')
+@app.route("/buddhism")
+def buddhism():
+    return render_template('buddhism.html', title='Buddhism')
+
+@app.route("/NewPlace")
+def NewPlace():
+    return render_template('NewPlace.html', title='NewPlace')
+
+@app.route("/Problems")
+def Problems():
+    return render_template('Problems.html', title='Problems')
+
+@app.route("/Unsatisfactoriness")
+def Unsatisfactoriness():
+    return render_template('Unsatisfactoriness.html', title='Unsatisfactoriness')
+
+@app.route("/HighRiskBehaviors")
+def HighRiskBehaviors():
+    return render_template('HighRiskBehaviors.html', title='HighRiskBehaviors')
+
+
 
 
 @app.route("/register", methods=['GET', 'POST'])

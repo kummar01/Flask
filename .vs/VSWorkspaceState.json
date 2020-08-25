@@ -2,13 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\flaskblog",
-    "\\flaskblog\\errors",
     "\\flaskblog\\main",
-    "\\flaskblog\\static",
-    "\\flaskblog\\templates",
-    "\\flaskblog\\templates\\errors",
-    "\\flaskblog\\users"
+    "\\flaskblog\\posts",
+    "\\flaskblog\\static"
   ],
-  "SelectedNode": "\\flaskblog\\templates\\register.html",
+  "SelectedNode": "\\flaskblog\\config.py",
   "PreviewInSolutionExplorer": false
 }

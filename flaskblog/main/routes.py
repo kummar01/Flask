@@ -12,10 +12,26 @@ def home():
     return render_template('home.html', posts=posts)
 
 
-@main.route("/about")
-def about():
-    return render_template('about.html', title='About')
+@main.route("/buddhism")
+def buddhism():
+    return render_template('buddhism.html', title='Buddhism')
 
-@main.route("/TryAgain")
-def TryAgain():
-    return render_template('TryAgain.html', title='TryAgain')
+@main.route("/NewPlace")
+def NewPlace():
+    return render_template('NewPlace.html', title='NewPlace')
+
+@main.route("/Problems")
+def Problems():
+    return render_template('Problems.html', title='Problems')
+
+@main.route("/GeospatialProgramming")
+def GeospatialProgramming():
+    return render_template('GeospatialProgramming.html', title='GeospatialProgramming')
+
+@main.route("/Unsatisfactoriness")
+def Unsatisfactoriness():
+    return render_template('Unsatisfactoriness.html', title='Unsatisfactoriness')
+
+@main.route("/HighRiskBehaviors")
+def HighRiskBehaviors():
+    return render_template('HighRiskBehaviors.html', title='HighRiskBehaviors')

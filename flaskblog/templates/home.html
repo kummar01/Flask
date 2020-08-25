@@ -1,5 +1,13 @@
 {% extends "layout.html" %}
 {% block content %}
+<center><h2>Reasons why maintaining Soberity is imperative</h2></center>  
+    <center><img src="/static/images/Brooklyn.jpg"alt="Family" width="500" height="249"></center>
+<blockquote style="font-family:monspace">
+                <p><i>Attachment is the very opposite of love.<br> 
+                Love says, "I want you to be happy."<br>
+                Attachment says, "I want you to make me happy."<br>
+                </i></p><cite>~Tenzin Palmo</cite>
+</blockquote> 
     {% for post in posts.items %}
 <article class="media content-section">
     <img class="rounded-circle article-img" src="{{ url_for('static', filename='profile_pics/' + post.author.image_file) }}">
